@@ -1,0 +1,25 @@
+---
+layout: base.njk
+---
+
+{# Note this is a form of "chaining" from template file to here to base.njk #}
+<article class="main-article">
+<div class="container container--narrow flow">
+
+    <h1 class="article-title">
+      {# title: not from front matter here, but from front matter of wrapped file #}
+      <title>{{ title }}</title>
+      {{ title }}
+    </h1>
+    <figure class="main-article__figure">
+      {# Note need for ""s #}
+      <img src= "{{ image | url }}" alt= "{{ imageAlt }}">
+      <figcaption>
+        {{ imageAlt }}
+      </figcaption>
+    </figure>
+
+    {{ content | safe }}
+
+</div>
+</article>

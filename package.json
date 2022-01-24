@@ -1,0 +1,18 @@
+{
+    "name": "jamstack",
+    "version": "1.0.0",
+    "youtube": "https://www.youtube.com/watch?v=4wD00RT6d-g&t=1501s",
+    "description": "These are the starting files used by [Kevin Powell](https://kevinpowell.co) to create a personal blog site for the [Codementor](https://www.codementor.io/) DevProjects Challenge, [Create a fast and secure blog using JAMStack](https://www.codementor.io/projects/web/create-a-fast-and-secure-blog-using-jamstack-c93coupnxb). You are free to use them however you want to get started with the challenge, if you'd like to start working on creating the site without worrying about the content itself.",
+    "main": "index.js",
+    "dependencies": {},
+    "devDependencies": {},
+    "scripts": {
+        "start": "eleventy --serve",
+        "build": "eleventy",
+        "watch": "eleventy --watch",
+        "test": "eleventy --serve &"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC"
+}
